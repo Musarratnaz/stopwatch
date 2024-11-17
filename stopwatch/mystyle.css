@@ -1,0 +1,62 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: indianred;
+    
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+    font-size:25px;
+    font-style: italic;
+    color: lemonchiffon;
+}
+
+.digit {
+    font-size: 100px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+.text {
+    font-size: 35px;
+    margin: 0 5px;
+    font-weight: bold;
+    
+}
+
+#btn-box {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: lemonchiffon;
+}
+#start{
+    background-color: green;
+}
+#stop{
+    background-color: red;
+}
+#reset{
+    background-color: lightseagreen;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>TechforcePakistan</h1>
+        <h1>Musarrat Naz</h1>
+        <h1>GB1-076</h1>
+        <h1> Teacher:ma'am Shafaq Anees</h1>
+        <h1>STOP WATCH</h1>
+            <div>
+                <span class="digit" id="hr">00</span>
+                <span class="text">Hr</span>
+                <span class="digit" id="min">00</span>
+                <span class="text">Min</span>
+                <span class="digit" id="sec">00</span>
+                <span class="text">Sec</span>
+                <span class="digit" id="msec">00</span>
+                <span class="text">Msec</span>
+            </div>
+            <div id="btn-box">
+                <button class="btn" id="start" onclick="startTimer()">Start</button>
+                <button class="btn" id="stop" onclick="stopTimer()">Stop</button>
+                <button class="btn" id="reset" onclick="resetTimer()">Reset</button>
+
+            </div>
+        </div>
+
+        <script src="count.js"></script>
+</body>
+
+</html>
